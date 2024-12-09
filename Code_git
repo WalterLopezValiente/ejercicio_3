@@ -1,0 +1,10 @@
+git clone https://github.com/WalterLopezValiente/ejercicio_3.git
+cd ejercicio_3
+git checkout -b ejercicio-avanzado
+git add arbol_binario.pl
+git commit -m "Agregar código del árbol binario de búsqueda"
+git push origin ejercicio-avanzado 
+git checkout master
+git add README.md
+git commit -m "Agregar README.md"
+git push origin master
